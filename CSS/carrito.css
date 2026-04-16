@@ -1,0 +1,36 @@
+body{
+  display:flex;
+  justify-content:center;
+}
+.carrito img {
+  max-width: 100px;
+  height: auto;
+}
+
+body{
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:#bce7f1;
+  display:flex;
+  justify-content:center;
+}
+
+
+.app{
+  max-width:420px;
+}
+
+.item{
+  display:flex;
+  justify-content:space-between;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  background:#7cf382;
+  color:rgb(10, 10, 10);
+  padding:10px 20px;
+  border-radius:10px;
+  text-decoration:none;
+}

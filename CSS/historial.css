@@ -1,0 +1,99 @@
+body{
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:#eef2f3;
+  display:flex;
+  justify-content:center;
+}
+
+/* CONTENEDOR */
+.app{
+  max-width:420px;
+  width:100%;
+  background:#f8f9fa;
+  min-height:100vh;
+}
+
+/* HEADER */
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+}
+
+/* CONTENEDOR HISTORIAL */
+.historial{
+  padding:15px;
+}
+
+/* CARD PEDIDO */
+.pedido{
+  background:white;
+  border-radius:15px;
+  padding:15px;
+  margin-bottom:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0 4px 10px rgba(0,0,0,0.08);
+  transition:0.3s;
+}
+
+/* EFECTO HOVER */
+.pedido:hover{
+  transform:translateY(-3px);
+}
+
+/* INFO */
+.info h4{
+  margin:0;
+  font-size:16px;
+}
+
+.info p{
+  margin:3px 0;
+  font-size:13px;
+  color:#555;
+}
+
+/* ESTADO */
+.estado{
+  padding:6px 12px;
+  border-radius:10px;
+  color:white;
+  font-size:12px;
+  font-weight:500;
+}
+
+/* COLORES */
+.entregado{
+  background:#2e7d32;
+}
+
+.pendiente{
+  background:#f9a825;
+}
+
+.cancelado{
+  background:#c62828;
+}
+
+/* BOTÓN (para vacío) */
+.btn{
+  display:block;
+  text-align:center;
+  background:#2e7d32;
+  color:white;
+  padding:12px;
+  border-radius:10px;
+  text-decoration:none;
+  margin-top:15px;
+}
+
+/* TEXTO VACÍO */
+.historial p{
+  text-align:center;
+  color:#777;
+  margin-top:40px;
+}

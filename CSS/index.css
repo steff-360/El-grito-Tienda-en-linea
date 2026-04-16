@@ -1,0 +1,157 @@
+body{
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:#bfe7f1;
+  display:flex;
+  justify-content:center;
+}
+
+/* CONTENEDOR APP */
+.app{
+  width:100%;
+  max-width:420px;
+  background:#d8f17a;
+  min-height:100vh;
+  position:relative;
+}
+
+/* HEADER */
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+  position:relative;
+}
+
+/* LOGO */
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo img{
+  width:35px;
+}
+
+/* HAMBURGUESA */
+#menu-toggle{
+  display:none;
+}
+
+.hamburger{
+  font-size:26px;
+  cursor:pointer;
+  z-index:2;
+}
+
+/* MENÚ (MEJORADO) */
+.menu{
+  position:absolute;
+  top:0;
+  right:-100%;
+  width:70%;
+  height:100vh;
+  background:rgb(245, 201, 201);
+  display:flex;
+  flex-direction:column;
+  padding-top:80px;
+  transition:0.3s;
+  box-shadow:-5px 0 15px rgba(0,0,0,0.1);
+}
+
+/* LINKS */
+.menu a{
+  padding:15px 20px;
+  text-decoration:none;
+  color:#333;
+  border-bottom:1px solid #eee;
+  font-weight:500;
+}
+
+/* ACTIVAR MENU DESLIZANTE */
+#menu-toggle:checked ~ .menu{
+  right:0;
+}
+
+/* BUSCADOR */
+.search{
+  padding:10px;
+}
+
+.search input{
+  width:100%;
+  padding:12px;
+  border-radius:20px;
+  border:none;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* BANNER */
+.banner{
+  padding:10px;
+}
+
+.banner img{
+  width:100%;
+  border-radius:15px;
+}
+
+/* PRODUCTOS */
+.productos{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+  padding:10px;
+}
+
+/* CARD */
+.card{
+  background:white;
+  border-radius:15px;
+  padding:10px;
+  text-align:center;
+  position:relative;
+  box-shadow:0 4px 10px rgba(0,0,0,0.08);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card img{
+  width:100%;
+  height:120px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+.precio{
+  color:#2e7d32;
+  font-weight:bold;
+}
+
+/* BOTÓN */
+.btn{
+  position:absolute;
+  right:10px;
+  bottom:10px;
+  background:#2e7d32;
+  color:white;
+  padding:6px 10px;
+  border-radius:50%;
+  text-decoration:none;
+}
+
+/* RESPONSIVE */
+@media(min-width:768px){
+  .app{max-width:600px;}
+  .productos{grid-template-columns:repeat(3,1fr);}
+}
+
+@media(min-width:1024px){
+  .app{max-width:900px;}
+  .productos{grid-template-columns:repeat(4,1fr);}
+}
