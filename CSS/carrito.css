@@ -2,19 +2,17 @@ body{
   display:flex;
   justify-content:center;
 }
+
 .carrito img {
-  max-width: 100px;
-  height: auto;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-body{
-  margin:0;
-  font-family:'Poppins', sans-serif;
-  background:#bce7f1;
-  display:flex;
-  justify-content:center;
+img {
+  width: 100%;
 }
-
 
 .app{
   max-width:420px;
