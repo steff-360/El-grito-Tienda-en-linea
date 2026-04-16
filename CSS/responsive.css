@@ -1,0 +1,124 @@
+/* =========================
+   responsive
+========================= */
+
+/* TABLET */
+@media (max-width: 900px) {
+
+  body{
+    padding: 10px;
+  }
+
+  .app{
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  /* HEADER */
+  .header{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* PRODUCTOS */
+  .productos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .card{
+    width: 100%;
+  }
+
+  /* CARRITO */
+  .item{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* MÓVIL */
+@media (max-width: 600px) {
+
+  body{
+    padding: 10px;
+  }
+
+  .app{
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* HEADER */
+  .header{
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  /* PRODUCTOS (1 columna en móvil) */
+  .productos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .card{
+    width: 100%;
+  }
+
+  /* CARRITO */
+  .item{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .item img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .actions,
+  .btn,
+  .checkout{
+    width: 100%;
+  }
+
+  /* BOTONES MÁS GRANDES */
+  button,
+  .btn,
+  .checkout{
+    text-align: center;
+    padding: 12px;
+  }
+
+  /* TEXTOS */
+  .title,
+  h1,
+  h2{
+    text-align: center;
+  }
+}
