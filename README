@@ -1,0 +1,152 @@
+# EL GRITO — Proyecto Web Artístico 
+
+>**"El Grito"**, desarrollado con **HTML5 semántico y CSS3 puro**, donde **cada página HTML tiene su propio archivo CSS**, manteniendo una estructura modular por vista.
+
+---
+
+## 📌 Descripción del proyecto
+
+**EL GRITO** es llamado asi por la Universidad San Carlos de Guatemala y asi mismo esta inspirado el logo, a los encapuchados. Tiene una interfaz web artística diseñada para representar una obra visual de forma digital, priorizando la estética, la composición visual y la jerarquía tipográfica.
+
+El proyecto está construido sin JavaScript ni frameworks, enfocándose en:
+
+* Maquetación profesional (nivel producción)
+* CSS independiente por cada página
+* Diseño responsive mobile-first
+* Accesibilidad básica WCAG
+
+---
+
+## 🧱 Tecnologías utilizadas
+
+* HTML5 (estructura semántica avanzada)
+* CSS3 (un archivo CSS por cada HTML)
+* Diseño responsivo mobile-first
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+el-grito/
+├── index.html
+│   # Página principal —  "El Grito"
+│
+├── css/
+│   ├── index.css       # Estilos exclusivos de la página principal
+│   ├── about.css       # (si aplica) estilos de secciones adicionales
+│   ├── layout.css      # Estilos de estructura global si se reutiliza
+│   └── responsive.css  # Ajustes generales de adaptación (opcional)
+│
+├── img/
+│   └── el-grito.png    # Imagen principal de la obra
+│
+└── README.md
+```
+
+---
+
+## 🎨 Sistema de diseño (Design System)
+
+### 🎨 Paleta de colores
+
+* `--bg-primary`: #0f0f14
+* `--bg-secondary`: #1a1a22
+* `--text-primary`: #ffffff
+* `--text-muted`: #b3b3b3
+* `--accent`: #ff3b3b
+
+### 🔤 Tipografía
+
+* Títulos: estilo artístico (serif/display)
+* Texto: sans-serif limpia y legible
+
+### 📏 Espaciado
+
+Escala base consistente:
+
+* 8px, 16px, 24px, 32px, 48px
+
+---
+
+## 🗺️ Estructura visual del sitio
+
+* **Header:** Título centrado "EL GRITO"
+* **Main:** Imagen principal 
+* **Section:** Descripción artística
+* **Footer:** Créditos del proyecto
+
+---
+
+## 🎯 Objetivos del proyecto
+
+* Representar digitalmente una pagina web para universitarios
+* Aplicar HTML5 semántico correctamente
+* Usar CSS separado por página (arquitectura por vista)
+* Mantener estética minimalista y expresiva
+* Practicar diseño responsive real
+
+---
+
+## 📱 Diseño responsivo (Mobile First)
+
+* 📱 Mobile (<480px): contenido apilado
+* 📟 Tablet (768px): mejor espaciado
+* 💻 Desktop (1024px+): composición centrada tipo galería
+
+---
+
+## ♿ Accesibilidad (básica)
+
+* Uso de etiquetas semánticas
+* Texto alternativo en imágenes (`alt`)
+* Buen contraste visual
+* Estructura clara para lectura asistida
+
+---
+
+## 🧩 Características técnicas destacadas
+
+### 🎛️ CSS por página
+
+Cada HTML tiene su propio CSS:
+
+* `index.html` → `index.css`
+* Otras páginas → CSS individual según vista
+
+### 🎨 Estilo visual
+
+* Fondo oscuro tipo museo
+* Imagen como protagonista
+* Diseño minimalista y emocional
+
+### 🧱 HTML semántico
+
+* Uso correcto de `header`, `main`, `section`, `footer`
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+Solo abre:
+
+```
+index.html
+```
+---
+
+## 📋 Estado del proyecto
+
+* HTML semántico: ✅
+* CSS por página: ✅
+* Responsive: ✅
+* Sin JavaScript: ✅
+* Diseño tipo galería: ✅
+
+---
+
+## 👩‍💻 Autor
+
+**Stefani Sánchez**
+
+Proyecto académico de desarrollo web — Representación de forma digital.
