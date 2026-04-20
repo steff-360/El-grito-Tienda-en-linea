@@ -18,6 +18,11 @@ body{
   gap:20px;
 }
 
+.tabla{
+  display:grid;
+  grid-template-columns: 15fr 1fr;
+}
+
 /* TARJETAS */
 .card{
   background:white;

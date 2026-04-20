@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    margin:0;
+    padding:20px;
+  }
+  
+  h2{
+    text-align:center;
+  }
+  
+  /* 🔙 BOTÓN VOLVER */
+  .volver{
+    margin-bottom:15px;
+  }
+  
+  .btn-volver{
+    text-decoration:none;
+    background:#222;
+    color:white;
+    padding:8px 15px;
+    border-radius:8px;
+    font-size:14px;
+  }
+  
+  .btn-volver:hover{
+    background:#444;
+  }
+  
+  /* CONTENEDOR */
+  .comparador{
+    max-width:900px;
+    margin:0 auto;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* GRID */
+  .tabla{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  /* CELDAS */
+  .celda{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+  }
+  
+  /* ENCABEZADO */
+  .header{
+    background:#222;
+    color:white;
+  }
+  
+  /* IMÁGENES */
+  .producto img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:10px;
+  }
+  
+  /* TÍTULOS */
+  .titulo{
+    font-weight:bold;
+    background:#eee;
+  }
+  
+  /* ZEBRA STRIPING */
+  .tabla .celda:nth-child(6n+4),
+  .tabla .celda:nth-child(6n+5),
+  .tabla .celda:nth-child(6n+6){
+    background:#f9f9f9;
+  }
+  
+  /* BOTONES (BADGES) */
+  .badge{
+    display:inline-block;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+  }
+  
+  /* DISPONIBLE */
+  .disponible{
+    background:#d4edda;
+    color:#155724;
+  }
+  
+  /* NO DISPONIBLE */
+  .no-disponible{
+    background:#f8d7da;
+    color:#721c24;
+  }
+  
+  /* HOVER EN CELDAS */
+  .celda:hover{
+    background:#f1f1f1;
+    transition:0.3s;
+  }
+  
+  /* RESPONSIVE */
+  @media(max-width:600px){
+    .tabla{
+      grid-template-columns:1fr;
+    }
+  }
